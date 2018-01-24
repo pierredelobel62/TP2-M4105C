@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+css/style.css
+img/calais.jpg
+img/favicon.ico
+
+
+NETWORK:
+*
+
+FALLBACK:
+
