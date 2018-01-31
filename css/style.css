@@ -1,8 +1,11 @@
 *{
 	text-align: center;
+	color: white;
 }
 html{
 	font-size: 62,5%;
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
 }
 h1{
 	font-size: 8vw;
@@ -11,15 +14,15 @@ body{
 	font-size: 1.6rem;
 }
 #first{
-	background-color: blue;
+	
 }
 
 #second{
-	background-color: white;
+	
 }
 
 #third{
-	background-color: red;
+	
 }
 
 #iut{
@@ -34,9 +37,10 @@ img{
 }
 table{
 	border-collapse: collapse;
+	margin:auto;
 }
 td,th{
-	border: 1px solid black;
+	border: 1px solid white;
 }
 th{
 	background-color: grey;
@@ -52,5 +56,12 @@ form{
 		content: url("../img/logo-iut2.jpg");
 		width: 600px;
 		margin: auto;
+	}
+}
+
+@media (max-width: 1023px){
+	td,th{
+		display: inline-block;
+		width: 100%;
 	}
 }
